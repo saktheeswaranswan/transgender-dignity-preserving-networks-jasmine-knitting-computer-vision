@@ -6,7 +6,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_hands = mp.solutions.hands
 
 # Webcam Initialization
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture("handposenet.mp4")
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
